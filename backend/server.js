@@ -54,7 +54,7 @@ app.listen(4000, () => {
 })
 
 const listenToEvents = () => {
-    const provider = new ethers.providers.JsonRpcProvider('http://127.0.0.1:7545');
+    const provider = new ethers.providers.JsonRpcProvider('http://127.0.0.1:7545'); // for local developement 
     const networkId = '5777';
 
     const paymentProcessor = new ethers.Contract(

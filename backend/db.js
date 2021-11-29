@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 password = encodeURI('123465');
 database = encodeURI('payment');
-uri = `mongodb+srv://sieuchuot156:${password}@cluster0.vwml1.mongodb.net/${database}?retryWrites=true&w=majority`;
+uri = ``; // enter your   ecommerce database url for connection 
 encodedUri = encodeURI(uri);
 
 mongoose.connect(
