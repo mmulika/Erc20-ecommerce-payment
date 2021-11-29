@@ -1,4 +1,4 @@
-# ERC-20 E-COMMERRCE APP V2
+# ERC-20 E-COMMERRCE APP 
 
 Decentralize App (Dapp) for trading Dai token to get product. 
  Metamask's API in 2021.
